@@ -31,17 +31,6 @@
             "produces":[
                "*/*"
             ],
-			"parameters": [
-				{
-				"name": "page",
-				"in": "query",
-				"description": "page",
-				"required": false,
-				"type": "integer",
-				"default": 0,
-				"format": "int32"
-				}
-			],
             "responses":{
                "200":{
                   "description":"OK",
