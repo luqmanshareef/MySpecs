@@ -11,7 +11,7 @@
     "license": {}
   },
   "host": "localhost:8080",
-  "basePath": "/",
+  "basePath": "/products/",
   "tags": [
     {
       "name": "item-controller",
