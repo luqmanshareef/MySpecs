@@ -154,6 +154,9 @@
         "name": {
           "type": "string"
         },
+	"displayName": {
+          "type": "string"
+        },
         "parent": {
           "$ref": "#/definitions/Item"
         }
