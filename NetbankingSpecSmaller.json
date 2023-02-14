@@ -435,7 +435,7 @@
         }
       }
     },
-    "/api/v1/branches/update": {
+    "/api/v1/branches/update-branch": {
       "put": {
         "tags": [
           "branch-location-controller"
