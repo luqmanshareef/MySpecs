@@ -2494,7 +2494,7 @@
         }
       }
     },
-    "/api/v1/users/status": {
+    "/api/v1/users/statuscheck": {
       "get": {
         "tags": [
           "users-controller"
