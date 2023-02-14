@@ -3901,7 +3901,7 @@
         "credentialsNonExpired": {
           "type": "boolean"
         },
-        "email": {
+        "email_id": {
           "type": "string"
         },
         "enabled": {
