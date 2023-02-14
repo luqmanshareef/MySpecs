@@ -19,7 +19,7 @@
     }
   ],
   "paths": {
-    "/item/": {
+    "/items/all": {
       "get": {
         "tags": [
           "item-controller"
