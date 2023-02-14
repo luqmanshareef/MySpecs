@@ -166,7 +166,7 @@
     "Product": {
       "type": "object",
       "properties": {
-        "desc": {
+        "description": {
           "type": "string"
         },
         "id": {
