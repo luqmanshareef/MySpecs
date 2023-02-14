@@ -288,7 +288,7 @@
         }
       }
     },
-    "/api/v1/bank-account/{id}": {
+    "/api/v1/bank-account/{id}/test": {
       "get": {
         "tags": [
           "bank-account-controller"
