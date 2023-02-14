@@ -2912,6 +2912,10 @@
           "type": "integer",
           "format": "int64"
         },
+        "PrevAccountNumber": {
+          "type": "integer",
+          "format": "int64"
+        },
         "accountType": {
           "type": "string",
           "enum": [
