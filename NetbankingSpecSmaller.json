@@ -242,7 +242,7 @@
         }
       }
     },
-    "/api/v1/bank-account/withdraw-amount": {
+    "/api/v1/bank-account/withdraw": {
       "put": {
         "tags": [
           "bank-account-controller"
