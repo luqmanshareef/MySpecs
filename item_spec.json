@@ -18,6 +18,44 @@
       "description": "Item Controller"
     }
   ],
+  "definitions": {
+    "Item": {
+      "type": "object",
+      "properties": {
+        "belongsTo": {
+          "$ref": "#/definitions/Product"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+	"displayName": {
+          "type": "string"
+        },
+        "parent": {
+          "$ref": "#/definitions/Item"
+        }
+      },
+      "title": "Item"
+    },
+    "Product": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "prodName": {
+          "type": "string"
+        }
+      },
+      "title": "Product"
+    }
+  },
   "paths": {
     "/items/all": {
       "get": {
@@ -139,44 +177,6 @@
           }
         }
       }
-    }
-  },
-  "definitions": {
-    "Item": {
-      "type": "object",
-      "properties": {
-        "belongsTo": {
-          "$ref": "#/definitions/Product"
-        },
-        "id": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-	"displayName": {
-          "type": "string"
-        },
-        "parent": {
-          "$ref": "#/definitions/Item"
-        }
-      },
-      "title": "Item"
-    },
-    "Product": {
-      "type": "object",
-      "properties": {
-        "description": {
-          "type": "string"
-        },
-        "id": {
-          "type": "string"
-        },
-        "prodName": {
-          "type": "string"
-        }
-      },
-      "title": "Product"
     }
   }
 }
