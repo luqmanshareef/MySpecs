@@ -16,23 +16,24 @@
     {
       "name": "item-controller",
       "description": "Item Controller"
-    }
+    }              
   ],
-  "definitions": {
+  "definitions": {           
     "Item": {
       "type": "object",
       "properties": {
         "belongsTo": {
           "$ref": "#/definitions/Product"
         },
+	   "name": {
+          "type": "string"
+        },
         "id": {
           "type": "string"
         },
-        "name": {
-          "type": "string"
-        },
+
 	"displayName": {
-          "type": "string"
+          "type": "string"             
         },
         "parent": {
           "$ref": "#/definitions/Item"
