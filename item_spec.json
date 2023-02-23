@@ -2,8 +2,8 @@
   "swagger": "2.0",
   "info": {
     "description": "Public API.",
-    "version": "V1",
     "title": "Demo REST API",
+    "version": "V1",
     "termsOfService": "Terms of service",
     "contact": {
       "name": "founders"
