@@ -3160,7 +3160,7 @@
           }
         },
         "requestId": {
-          "type": "string"
+          "type": "integer"
         },
         "requestTime": {
           "type": "string",
